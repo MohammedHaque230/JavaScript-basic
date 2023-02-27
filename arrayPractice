@@ -1,0 +1,36 @@
+//this script for Array and usage
+
+
+
+let fruits = ['Apple', 'Banana', 'Grape', 'Honey Diew']
+    //console.log(fruits);
+
+let cars = ['Honda', 'Toyota', 'BMW', 'Ford'];
+    //console.log(cars);
+
+    let count = 0;
+    
+let newCars = new Array('GM', 'Toyota', 'BMW', 'Ford');
+   // console.log(cars);
+do{
+    console.log(newCars[count]);
+     count = count +1;
+}while(count <=3)
+
+newCars[2]='Porshe';
+newCars.push('Chevy');
+newCars.push('Mazda');
+newCars.shift();
+
+console.log(newCars.length);
+
+let evenNumbers = [2, 4, 6];
+let oddNumbers = [1,3,5];
+let primeNumbers = [2,3,5];
+
+let numbers = evenNumbers.concat(oddNumbers, primeNumbers);
+console.log (numbers);
+
+
+
+    
